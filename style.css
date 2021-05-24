@@ -27,6 +27,9 @@ html {
     margin: .5rem 0 .5rem 0;
     padding: .5rem;
     max-width: 20rem;
+    border-radius: .4rem;
+    border: none;
+
 }
 
 .bcc {
@@ -43,7 +46,6 @@ html {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(3px);
     background: rgba(212, 218, 212, 0.315);
-    /* background: linear-gradient(160deg, rgba(93, 212, 86, 0.6811099439775911) 0%, rgba(255, 179, 0, 0.36738445378151263) 100%); */
     padding-bottom: 1.3rem;
     padding-top: .8rem;
     border-radius: 1rem;
@@ -71,13 +73,18 @@ html {
 .name {
     max-width: 8rem;
 }
-
 input:focus {
     outline: 0;
 }
 .icons{
-    display: flex;
+    display: none;
+    /* display: flex; */
     font-size: 2rem;
     justify-content: space-evenly;
-    
 }
+@media (max-width:540px){
+    .btn-register{
+        font-weight: 300;
+    }
+}
+    
