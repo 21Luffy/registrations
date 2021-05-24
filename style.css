@@ -148,7 +148,8 @@ input:focus {
 }
 .data{
     margin-left: 1rem;
-    background: rgba(252, 251, 251, 0.856);
+    padding-left: .6rem;
+    background: rgba(228, 228, 228, 0.856);
     color: #447439;
     margin-top: 1rem;
     /* padding: .3rem; */
