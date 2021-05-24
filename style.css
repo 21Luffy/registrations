@@ -45,6 +45,7 @@ html {
     user-select: none;
     -khtml-user-select: none;
     /* / */
+    
     max-width: 25rem;
     margin-top: 15rem;
     margin-left: auto;
@@ -52,7 +53,7 @@ html {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(3px);
     background: rgba(212, 218, 212, 0.315);
-    padding-bottom: 1.3rem;
+    padding-bottom: .3rem;
     padding-top: .8rem;
     border-radius: 1rem;
     /* BOX-SHADOW внеш */
@@ -73,10 +74,14 @@ html {
     padding: .5rem .5rem .5rem .5rem;
     border-radius: 2rem;
     border: none;
+    margin-bottom: ;
     font-size: 1.2rem;
     font-weight: 400;
+    transition: 400ms ease;
 }
+.btn-register:hover{
 
+}
 .name {
     max-width: 8rem;
 }
@@ -94,8 +99,7 @@ input:focus {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0rem;
+    margin-top: 1rem;
 }
 
 .btn-mob {
@@ -114,7 +118,7 @@ input:focus {
     justify-content: space-evenly;
     font-size: 2rem;
     margin-top: 1.5rem;
-    margin-bottom: 0rem;
+    /* margin-bottom: 0rem; */
     
 }
 @media (min-width:540px) {
@@ -136,25 +140,62 @@ input:focus {
     .btn-register p {
         display: none;
     }
+    .data{
+        max-width: 9.4rem;
+    }
 }
 .data{
+    margin-left: 1rem;
     background: rgba(252, 251, 251, 0.856);
     color: #447439;
     margin-top: 1rem;
-    padding: .3rem;
+    /* padding: .3rem; */
     border-radius: inherit;
     margin-bottom: 1rem;
     display: flex;
     border: none;
+    max-width: 9.4rem;
+
+}
+#ddta{
+    background: #F9FBFC;
+    color: #447439;
+    /* margin-top: 1rem; */
+    /* padding: .3rem; */
+    border-radius: inherit;
+    margin-bottom: 1rem;
+    display: flex;
+    border: none;
+    
+}
+.data-txt{
+    font-weight: 700;
+    margin-left: .5rem;
+    display: flex;
+    align-items: center;
 }
 .fa-discord {
     color: #7289D9;
+    transition: 400ms ease;
+
 }
 
 .fa-telegram-plane {
     color: #25A5E4;
+    transition: 400ms ease;
+
 }
 
 .fa-odnoklassniki {
     color: #F58220;
+    transition: 400ms ease;
+}
+.fa-odnoklassniki:hover{
+    font-size: 3rem;
+}
+.fa-telegram-plane:hover{
+    font-size: 3rem;
+}
+.fa-discord:hover{
+    font-size: 3rem;
 }
