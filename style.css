@@ -101,6 +101,7 @@ input:focus {
     color: rgba(10, 126, 0, 0.582);
     /* width: 50px; */
     /* height: 50px; */
+    background: rgba(124, 243, 154, 0.548);
     cursor: pointer;
     border-radius: 1rem;
     border: none;
@@ -136,13 +137,14 @@ input:focus {
     }
 }
 .data{
+    background: rgba(252, 251, 251, 0.856);
+    color: #447439;
     margin-top: 1rem;
     padding: .3rem;
     border-radius: inherit;
     margin-bottom: 1rem;
     display: flex;
     border: none;
-
 }
 .fa-discord {
     color: #7289D9;
