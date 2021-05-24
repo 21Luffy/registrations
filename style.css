@@ -78,9 +78,11 @@ html {
     font-size: 1.2rem;
     font-weight: 400;
     transition: 400ms ease;
+    background: rgb(255, 255, 255);
 }
 .btn-register:hover{
-
+    color: rgb(255, 255, 255);
+    background: rgb(177, 177, 177);
 }
 .name {
     max-width: 8rem;
