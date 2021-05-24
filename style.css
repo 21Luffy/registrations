@@ -92,9 +92,10 @@ input:focus {
 
 .icons {
     display: flex;
-    /* justify-content: space-around; */
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 .btn-mob {
