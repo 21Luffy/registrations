@@ -173,7 +173,7 @@ input:focus {
 }
 .data-txt{
     font-weight: 700;
-    margin-left: .5rem;
+    margin-left: 1.2rem;
     display: flex;
     align-items: center;
 }
