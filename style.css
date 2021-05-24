@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
 
 html {
     height: 65vw;
-    background: url(images/Peacefu.jpg) no-repeat fixed;
+    background: url(images/Peacefu.jpg) no-repeat fixed center;
     background-size: cover;
 }
+/* body {cursor: url('images/cursor/cursor-1.cur.cur'), auto} */
 
 .btn {
-    cursor: pointer;
+    cursor: url("images/cursor/cursor-1.cur.cur"), auto;
+    /* cursor: pointer; */
 }
 
 .registration_field {
@@ -73,18 +75,23 @@ html {
 .name {
     max-width: 8rem;
 }
+
 input:focus {
     outline: 0;
 }
-.icons{
-    display: none;
-    /* display: flex; */
+
+.icons {
+    /* display: none; */
+    display: flex;
     font-size: 2rem;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-@media (max-width:540px){
-    .btn-register{
+
+@media (max-width:540px) {
+    .btn-register {
         font-weight: 300;
     }
 }
-    
+
+.fa-discord {
+}
