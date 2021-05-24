@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,12 +13,6 @@ html {
     background: url(images/Peacefu.jpg) no-repeat fixed center;
     background-size: cover;
 }
-/* body {cursor: url('images/cursor/cursor-1.cur.cur'), auto} */
-
-.btn {
-    cursor: url("images/cursor/cursor-1.cur.cur"), auto;
-    /* cursor: pointer; */
-}
 
 .registration_field {
     display: flex;
@@ -28,7 +23,7 @@ html {
 .reg {
     margin: .5rem 0 .5rem 0;
     padding: .5rem;
-    max-width: 20rem;
+    max-width: 22.5rem;
     border-radius: .4rem;
     border: none;
 
@@ -41,6 +36,15 @@ html {
 }
 
 .bc {
+    /* запрет на коп */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    /* / */
     max-width: 25rem;
     margin-top: 15rem;
     margin-left: auto;
@@ -62,6 +66,7 @@ html {
 }
 
 .btn-register {
+    cursor: url("images/cursor/cursor-1.png"), auto;
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -76,22 +81,77 @@ html {
     max-width: 8rem;
 }
 
+input {
+    font-size: 1rem;
+}
+
 input:focus {
     outline: 0;
+
 }
 
 .icons {
-    /* display: none; */
     display: flex;
+    /* justify-content: space-around; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-mob {
+    color: rgba(10, 126, 0, 0.582);
+    /* width: 50px; */
+    /* height: 50px; */
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+
+    font-size: 1.5rem;
+}
+.icons-mob{
+    display: flex;
+    justify-content: space-evenly;
     font-size: 2rem;
-    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    
+}
+@media (min-width:540px) {
+    .btn-mob {
+        display: none;
+    }
+    .icons-mob{
+        display: none;
+    }
 }
 
 @media (max-width:540px) {
     .btn-register {
-        font-weight: 300;
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .btn-register p {
+        display: none;
     }
 }
+.data{
+    margin-top: 1rem;
+    padding: .3rem;
+    border-radius: inherit;
+    margin-bottom: 1rem;
+    display: flex;
+    border: none;
 
+}
 .fa-discord {
+    color: #7289D9;
+}
+
+.fa-telegram-plane {
+    color: #25A5E4;
+}
+
+.fa-odnoklassniki {
+    color: #F58220;
 }
