@@ -38,6 +38,7 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 15%;
+    min-width: 25rem;
     margin-left: 38%;
     margin-right: 38%;
     max-width: 30rem;
