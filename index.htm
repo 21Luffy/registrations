@@ -9,6 +9,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="icon" href="images/ICONN/favicon.ico.png">
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="/jss.js"></script> -->
     <title>Регистрация</title>
 </head>
 
@@ -17,18 +18,28 @@
         <div class="bcc">
             <form>
                 <div class="inputs">
-                    <input class="name reg" type="name" placeholder="Имя">
-                    <input class="surname reg" type="surname" placeholder="Фамилия">
+                    <input class="name reg" type="name" placeholder="Имя" minlength="3">
+                    <input class="surname reg" type="surname" placeholder="Фамилия" minlength="3">
                 </div>
                 <div class="registration_field inputs">
                     <input class="email reg" type="email" placeholder="эл.адрес" autocomplete="email reg">
                     <input class="tel reg" type="tel" placeholder="телефон" maxlength="11" autocomplete="tel reg">
-                    <input class="password reg" type="password" placeholder="пароль" minlengths="8"
-                        autocomplete="new-password">
-                        <div id="ddta">
-                            <input class="data" type="date" value="2000-01-01" id="date" name="date" min="1900-01-01" max="2007-12-31"/>
-                            <p class="data-txt"> Дата рождения </p>
-                       </div>
+                    <input class="password reg" type="password" placeholder="пароль" autocomplete="new-password"
+                        minlengths="8">
+                    <div id="ddta">
+                        <input class="data" type="date" value="2000-01-01" id="date" name="date" min="1900-01-01"
+                            max="2007-12-31" />
+                        <p class="data-txt"> Дата рождения </p>
+                    </div>
+                    
+                    <div class="pol">
+                        <div class="pol-man">
+                            <label><input type="radio" name="Пол"> Мужчина</label>
+                        </div>
+                        <div class="pol-wman">
+                            <label><input type="radio" name="Пол"> Женщина</label>
+                        </div>
+                    </div>
 
                     <button class="btn-mob">
                         <i class="fas fa-clipboard-check"></i>
@@ -37,26 +48,26 @@
                         <p>зарегистрироваться</p>
                     </button>
                     <div class="icons-mob">
-                        <a href="https://discord.gg/x9ezcm9ECh"target="_blank"><i class="fab fa-discord"></i></a>
-                        <a href="https://t.me/music_FLAC_1411kbps"target="_blank"><i class="fab fa-telegram-plane"></i></a>
-                        <a href="https://ok.ru/"target="_blank"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="https://discord.gg/x9ezcm9ECh" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://t.me/music_FLAC_1411kbps" target="_blank"><i
+                                class="fab fa-telegram-plane"></i></a>
+                        <a href="https://ok.ru/" target="_blank"><i class="fab fa-odnoklassniki"></i></a>
                     </div>
                 </div>
-            <div class="icons">
-                <a href="https://discord.gg/x9ezcm9ECh" target="_blank"><i class="fab fa-discord"></i></a>
-                <a href="https://t.me/music_FLAC_1411kbps" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-                <a href="https://ok.ru/" target="_blank"><i class="fab fa-odnoklassniki"></i></a>
-            </div>
+                <div class="icons">
+                    <a href="https://discord.gg/x9ezcm9ECh" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://t.me/music_FLAC_1411kbps" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://ok.ru/" target="_blank"><i class="fab fa-odnoklassniki"></i></a>
+                </div>
             </form>
         </div>
 
 
     </div>
 </body>
-    <div class="img-girl">
-        <img src="/images/GEBGEF.png" alt="" width="300px">
-    </div>
-
+<div class="img-girl">
+    <img src="/images/GEBGEF.png" alt="" width="300px">
+</div>
 
 <footer>
 

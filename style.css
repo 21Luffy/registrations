@@ -45,7 +45,7 @@ html {
     user-select: none;
     -khtml-user-select: none;
     /* / */
-    
+
     max-width: 25rem;
     margin-top: 15rem;
     margin-left: auto;
@@ -79,10 +79,12 @@ html {
     transition: 400ms ease;
     background: rgb(255, 255, 255);
 }
-.btn-register:hover{
+
+.btn-register:hover {
     color: rgb(255, 255, 255);
     background: rgb(177, 177, 177);
 }
+
 .name {
     max-width: 8rem;
 }
@@ -114,19 +116,22 @@ input:focus {
 
     font-size: 1.5rem;
 }
-.icons-mob{
+
+.icons-mob {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
     margin-top: 1.5rem;
     /* margin-bottom: 0rem; */
-    
+
 }
+
 @media (min-width:540px) {
     .btn-mob {
         display: none;
     }
-    .icons-mob{
+
+    .icons-mob {
         display: none;
     }
 }
@@ -135,17 +140,21 @@ input:focus {
     .btn-register {
         display: none;
     }
-    .icons{
+
+    .icons {
         display: none;
     }
+
     .btn-register p {
         display: none;
     }
-    .data{
+
+    .data {
         max-width: 9.4rem;
     }
 }
-.data{
+
+.data {
     margin-left: 1rem;
     padding-left: .6rem;
     padding-top: .1rem;
@@ -160,23 +169,50 @@ input:focus {
     max-width: 9.4rem;
 
 }
-#ddta{
+
+#ddta {
     background: #F9FBFC;
     color: #447439;
     /* margin-top: 1rem; */
     /* padding: .3rem; */
     border-radius: inherit;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     display: flex;
     border: none;
-    
 }
-.data-txt{
+
+.pol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+.polclic{
+    margin-right: 15px;
+}
+.pol-man{
+    padding-top: .1rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    background: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+.pol-wman{
+    padding-top: .1rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    background: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+
+.data-txt {
     font-weight: 700;
     margin-left: 1.2rem;
     display: flex;
     align-items: center;
 }
+
 .fa-discord {
     cursor: url("images/cursor/cursor-1.png"), auto;
     color: #7289D9;
@@ -196,15 +232,19 @@ input:focus {
     color: #F58220;
     transition: 400ms ease;
 }
-.fa-odnoklassniki:hover{
+
+.fa-odnoklassniki:hover {
     font-size: 3rem;
 }
-.fa-telegram-plane:hover{
+
+.fa-telegram-plane:hover {
     font-size: 3rem;
 }
-.fa-discord:hover{
+
+.fa-discord:hover {
     font-size: 3rem;
 }
-.img-girl img{
-    display: none;    
+
+.img-girl img {
+    display: none;
 }
