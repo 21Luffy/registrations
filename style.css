@@ -100,7 +100,7 @@ input:focus {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 
 .btn-mob {
@@ -148,12 +148,13 @@ input:focus {
 .data{
     margin-left: 1rem;
     padding-left: .6rem;
-    background: rgba(228, 228, 228, 0.856);
+    padding-top: .1rem;
+    background: #73c0ff50;
     color: #447439;
-    margin-top: 1rem;
+    margin-top: .5rem;
     /* padding: .3rem; */
     border-radius: inherit;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     display: flex;
     border: none;
     max-width: 9.4rem;
