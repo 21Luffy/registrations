@@ -74,7 +74,6 @@ html {
     padding: .5rem .5rem .5rem .5rem;
     border-radius: 2rem;
     border: none;
-    margin-bottom: ;
     font-size: 1.2rem;
     font-weight: 400;
     transition: 400ms ease;
@@ -178,18 +177,21 @@ input:focus {
     align-items: center;
 }
 .fa-discord {
+    cursor: url("images/cursor/cursor-1.png"), auto;
     color: #7289D9;
     transition: 400ms ease;
 
 }
 
 .fa-telegram-plane {
+    cursor: url("images/cursor/cursor-1.png"), auto;
     color: #25A5E4;
     transition: 400ms ease;
 
 }
 
 .fa-odnoklassniki {
+    cursor: url("images/cursor/cursor-1.png"), auto;
     color: #F58220;
     transition: 400ms ease;
 }
@@ -201,4 +203,7 @@ input:focus {
 }
 .fa-discord:hover{
     font-size: 3rem;
+}
+.img-girl img{
+    display: none;    
 }
