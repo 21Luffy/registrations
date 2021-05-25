@@ -106,6 +106,7 @@ input:focus {
 }
 
 .btn-mob {
+    padding: .2rem;
     color: rgba(10, 126, 0, 0.582);
     /* width: 50px; */
     /* height: 50px; */
@@ -113,7 +114,6 @@ input:focus {
     cursor: pointer;
     border-radius: 1rem;
     border: none;
-
     font-size: 1.5rem;
 }
 
@@ -121,7 +121,7 @@ input:focus {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     /* margin-bottom: 0rem; */
 
 }
@@ -180,32 +180,32 @@ input:focus {
     display: flex;
     border: none;
 }
-
 .pol {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: .2rem;
-    padding-bottom: .2rem;
-}
-.polclic{
-    margin-right: 15px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 .pol-man{
+    font-size: 1.4rem;
     padding-top: .1rem;
     padding-left: .2rem;
     padding-right: .2rem;
-    background: rgb(255, 255, 255);
+    background: rgb(251, 253, 255);
     border-radius: 2rem;
 }
 .pol-wman{
+    font-size: 1.4rem;
     padding-top: .1rem;
     padding-left: .2rem;
     padding-right: .2rem;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 251, 255);
     border-radius: 2rem;
 }
-
+label{
+    cursor: pointer;
+}
 .data-txt {
     font-weight: 700;
     margin-left: 1.2rem;
