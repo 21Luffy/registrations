@@ -46,7 +46,9 @@ html {
     -khtml-user-select: none;
     /* / */
 
-    max-width: 25rem;
+    max-width: 24.5rem;
+    min-width: 23rem;
+    max-height: 23.5rem;
     margin-top: 15rem;
     margin-left: auto;
     margin-right: auto;
@@ -71,8 +73,9 @@ html {
     display: flex;
     align-items: stretch;
     justify-content: center;
+    margin-top: 1rem;
     padding: .5rem .5rem .5rem .5rem;
-    border-radius: 2rem;
+    border-radius: .2rem;
     border: none;
     font-size: 1.2rem;
     font-weight: 400;
@@ -82,7 +85,8 @@ html {
 
 .btn-register:hover {
     color: rgb(255, 255, 255);
-    background: rgb(177, 177, 177);
+    background: #37734b96;
+    /* backdrop-filter: blur(3px); */
 }
 
 .name {
@@ -99,10 +103,15 @@ input:focus {
 }
 
 .icons {
+    background-color: rgba(255, 255, 255, 0.678);
     display: flex;
+    border-radius: 2rem;
     justify-content: space-evenly;
     font-size: 2rem;
-    margin-top: .5rem;
+    padding: 3rem;
+    padding-top: 1.3rem;
+    max-height: 3rem;
+    margin-top: 3rem;
 }
 
 .btn-mob {
@@ -181,6 +190,7 @@ input:focus {
     border: none;
 }
 .pol {
+    margin-top: .5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -193,7 +203,13 @@ input:focus {
     padding-left: .2rem;
     padding-right: .2rem;
     background: rgb(251, 253, 255);
-    border-radius: 2rem;
+    border-radius: .3rem;
+    transition: 600ms ease;
+}
+.pol-man:hover {
+    color: #7289D9;
+    padding-left: .8rem;
+    padding-right: .8rem;
 }
 .pol-wman{
     font-size: 1.4rem;
@@ -201,7 +217,15 @@ input:focus {
     padding-left: .2rem;
     padding-right: .2rem;
     background: rgb(255, 251, 255);
-    border-radius: 2rem;
+    border-radius: .3rem;
+    transition: 600ms ease;
+
+}
+
+.pol-wman:hover {
+    color: hotpink;
+    padding-left: .8rem;
+    padding-right: .8rem;
 }
 label{
     cursor: pointer;
@@ -212,12 +236,10 @@ label{
     display: flex;
     align-items: center;
 }
-
 .fa-discord {
     cursor: url("images/cursor/cursor-1.png"), auto;
     color: #7289D9;
     transition: 400ms ease;
-
 }
 
 .fa-telegram-plane {
@@ -234,15 +256,27 @@ label{
 }
 
 .fa-odnoklassniki:hover {
-    font-size: 3rem;
+    color: #c95e00;
+    background-color:#c95e004d ;
+    -webkit-box-shadow: 0px 2px 67px 16px #F58220;
+    -moz-box-shadow: 0px 2px 67px 16px #F58220;
+    box-shadow: 0px 2px 67px 16px #F58220;
 }
 
 .fa-telegram-plane:hover {
-    font-size: 3rem;
+    background-color: #25a4e43f;
+    color: #0f6894;
+    -webkit-box-shadow: 0px 2px 67px 10px #25A5E4;
+    -moz-box-shadow: 0px 2px 67px 10px #25A5E4;
+    box-shadow: 0px 2px 67px 10px #25A5E4;
 }
 
 .fa-discord:hover {
-    font-size: 3rem;
+    color: #3952ac;
+    background-color: #7288d95e;
+    -webkit-box-shadow: 0px 2px 67px 16px #7289D9;
+    -moz-box-shadow: 0px 2px 67px 16px #7289D9;
+    box-shadow: 0px 2px 67px 16px #7289D9;
 }
 
 .img-girl img {
