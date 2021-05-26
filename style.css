@@ -103,6 +103,9 @@ input:focus {
 }
 
 .icons {
+    -webkit-box-shadow: -2px -1px 61px 9px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: -2px -1px 61px 9px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: -2px -1px 61px 9px rgba(34, 60, 80, 0.2) inset;
     background-color: rgba(255, 255, 255, 0.678);
     display: flex;
     border-radius: 2rem;
@@ -119,9 +122,9 @@ input:focus {
     color: rgba(10, 126, 0, 0.582);
     /* width: 50px; */
     /* height: 50px; */
-    background: rgba(124, 243, 154, 0.548);
+    background: rgba(124, 243, 154, 0.671);
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: .5rem;
     border: none;
     font-size: 1.5rem;
 }
@@ -130,7 +133,7 @@ input:focus {
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
     /* margin-bottom: 0rem; */
 
 }
@@ -148,6 +151,10 @@ input:focus {
 @media (max-width:540px) {
     .btn-register {
         display: none;
+    }
+
+    .bc {
+        max-height: 25rem;
     }
 
     .icons {
@@ -189,6 +196,7 @@ input:focus {
     display: flex;
     border: none;
 }
+
 .pol {
     margin-top: .5rem;
     display: flex;
@@ -197,7 +205,8 @@ input:focus {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-.pol-man{
+
+.pol-man {
     font-size: 1.4rem;
     padding-top: .1rem;
     padding-left: .2rem;
@@ -206,12 +215,14 @@ input:focus {
     border-radius: .3rem;
     transition: 600ms ease;
 }
+
 .pol-man:hover {
     color: #7289D9;
     padding-left: .8rem;
     padding-right: .8rem;
 }
-.pol-wman{
+
+.pol-wman {
     font-size: 1.4rem;
     padding-top: .1rem;
     padding-left: .2rem;
@@ -227,15 +238,18 @@ input:focus {
     padding-left: .8rem;
     padding-right: .8rem;
 }
-label{
+
+label {
     cursor: pointer;
 }
+
 .data-txt {
     font-weight: 700;
     margin-left: 1.2rem;
     display: flex;
     align-items: center;
 }
+
 .fa-discord {
     cursor: url("images/cursor/cursor-1.png"), auto;
     color: #7289D9;
@@ -257,7 +271,7 @@ label{
 
 .fa-odnoklassniki:hover {
     color: #c95e00;
-    background-color:#c95e004d ;
+    background-color: #c95e004d;
     -webkit-box-shadow: 0px 2px 67px 16px #F58220;
     -moz-box-shadow: 0px 2px 67px 16px #F58220;
     box-shadow: 0px 2px 67px 16px #F58220;
